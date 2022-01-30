@@ -100,3 +100,39 @@ html {
     z-index: 10000;
 
 }
+.container .text .buttn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.container .text .buttn .quote {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #22a6f0;
+    width 300px;
+    padding: 20px;
+    
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.container .text .buttn .learn {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #22a4f000;
+    width 160px;
+    padding: 20px;
+   
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 1px solid #ffffff;
+    
+}
