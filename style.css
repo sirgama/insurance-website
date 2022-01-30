@@ -18,6 +18,9 @@ html {
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 #overlay{
@@ -39,6 +42,12 @@ html {
     justify-content: space-evenly;
     align-items: center;
 }
+.main .logo a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+
+}
 .main .nav-bar ul li {
     display: inline-block;
     justify-content: space-around;
@@ -53,12 +62,41 @@ html {
 .main .nav-bar ul li a {
     text-decoration: none;
     color: #ffffff;
+    font-weight: bolder;
 }
-.main .member {
-    box-sizing: border-box;
-    height: 30px;
-    width: auto;
-    right: 40px;
-    margin-right: 40px;
-    background-color: #21a6f1;
+.main .member .btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #22a6f0;
+    width 180px;
+    padding: 20px;
+    border-radius: 5px;
+    right: 90px;
+}
+.main .member .btn a:hover {
+    transform: 0.5s ease 0s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+
+}
+.container .text h1 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    
+}
+.container .text p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+} 
+.container .text {
+    z-index: 10000;
+
 }
