@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,7 +9,7 @@
 html {
     color: #ffffff;
     background-color: #252B42;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .container {
     position: relative;
@@ -86,7 +87,7 @@ html {
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     padding: 20px;
     
@@ -145,8 +146,101 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: 10000;
+    color: #ffffff;
+    padding: 20px;
+    
 }
 .peace .mind1 {
+    color: rgb(48, 45, 45);
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 250px;
+    border: 1px solid rgb(245, 245, 245);
+    background: rgb(253, 253, 253);
     z-index: 10000;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 150px;
+    margin-right: 20px;
+
+}
+.peace .mind1 .img1 {
+    max-height: 100px;
+    width: 100px;
+}
+.peace .mind1 h1 {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.peace .mind1 p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* mind2 data */
+.peace .mind2 {
+    color: rgb(48, 45, 45);
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 250px;
+    border: 1px solid rgb(245, 245, 245);
+    background: rgb(253, 253, 253);
+    z-index: 10000;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 150px;
+
+}
+.peace .mind2 .img1 {
+    max-height: 100px;
+    width: 100px;
+}
+.peace .mind2 h1 {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.peace .mind2 p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* mind3 data starts here */
+
+.peace .mind3 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 250px;
+    border: 1px solid #22a6f0;
+    background: #22a6f0;
+    z-index: 10000;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+
+}
+.peace .mind3 .img2 {
+    max-height:70px;
+    width: 70px;
+}
+.peace .mind3 h1 {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.peace .mind3 p {
+    font-size: 12px;
+    font-weight: 400;
 }
