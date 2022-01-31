@@ -1,7 +1,7 @@
 # WELCOME TO THE INSURANCE WEBSITE!
 
 #####  
-### This is a website for an insurance company.
+### This is an Insurance company website.
 
 ## Table of Contents
 
