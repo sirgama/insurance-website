@@ -244,3 +244,35 @@ html {
     font-size: 12px;
     font-weight: 400;
 }
+
+
+
+.bookmark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: #ffffff;
+    height: 40vh;
+    width: 100%;
+    color: rgb(36, 34, 34);
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.bookmark .img3 {
+    max-height: 120px;
+    width: 120px;
+}
+.bookmark .life1 .img3 {
+    margin-left: 10px;
+}
+
+.bookmark .life1 {
+    margin-right: 40px;
+}
+
+.bookmark .life3 {
+    margin-left: 40px;
+}
