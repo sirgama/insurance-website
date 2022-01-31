@@ -621,3 +621,206 @@ html {
     padding: 10px;
     
 }
+
+
+
+
+
+.callus {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #fafafa;
+    color: black;
+}
+
+.callus .call h3 {
+    padding: 10px;
+    font-size: 14pt;
+    font-stretch: expanded;
+    font-weight: 900;
+
+}
+.callus .call p {
+    font-size: 9pt;
+    font-stretch: expanded;
+    margin-left: 10px;
+    color: grey;
+}
+.callus .click button {
+    border: none;
+    text-decoration: none;
+    height: 7vh;
+    width: 10vw;
+    color: #ffffff;
+    background: #22a6f0;
+    cursor: pointer;
+    border-radius: 7px;
+
+}
+/* footer section starts here */
+
+.ftr {
+    background: #ffffff;
+    color: black;
+    height: 50vh;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Company starts here */
+
+.ftr .company h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .company ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .company ul li {
+    margin: 10px 0;
+}
+
+.ftr .company ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+/* legal starts here */
+
+.ftr .legal h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .legal ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .legal ul li {
+    margin: 10px 0;
+}
+
+.ftr .legal ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+
+/* Features starts here */
+
+.ftr .features h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .features ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .features ul li {
+    margin: 10px 0;
+}
+
+.ftr .features ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+/* Resources Start here */
+
+.ftr .resources h4 {
+    font-weight: 900;
+    margin-left: 20px;
+
+}
+
+.ftr .resources ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .resources ul li {
+    margin: 10px 0;
+}
+
+.ftr .resources ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+
+
+/* Intouch starts here */
+
+.ftr .intouch h4 {
+    font-weight: 900;
+    margin-left: 20px;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.ftr .intouch ul {
+    list-style: none ;
+    padding: 20px;
+    text-align: left;
+    /* margin: 10px 0; */
+    
+}
+.ftr .intouch ul li {
+    margin: 0 0;
+}
+
+.ftr .intouch ul li a {
+    color: #011101;
+    font-weight: 300;
+    font-size: 10pt;
+    text-decoration: none;
+    list-style: none;
+} 
+.ftr .intouch ul li a img {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+.mwisho {
+    background: #fafafa;
+}
