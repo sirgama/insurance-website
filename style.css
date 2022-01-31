@@ -284,7 +284,7 @@ html {
    align-items: center;
    background: #fafafa;
    color: black;
-   height: 250vh;
+   height: 200vh;
 }
 
 .industry .ind {
@@ -309,13 +309,13 @@ html {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 10px;
 /*     border: 2px solid rgb(190, 187, 187);
  */
 } 
 .slate .part1 {
     height: 350px;
-    width: 280px;
+    width: 240px;
     padding: 30px;
     border: 1px solid rgb(207, 199, 199);
     border-radius: 5px;
@@ -340,7 +340,7 @@ html {
 
 .slate .part2 {
     height: 350px;
-    width: 280px;
+    width: 240px;
     padding: 30px;
     border: 1px solid rgb(207, 199, 199);
     border-radius: 5px;
@@ -364,7 +364,7 @@ html {
 
 .slate .part3 {
     height: 350px;
-    width: 280px;
+    width: 240px;
     padding: 30px;
     border: 1px solid rgb(207, 199, 199);
     border-radius: 5px;
@@ -387,3 +387,17 @@ html {
 }
 
 /* THE VECTOR SECTION STARTS HERE */
+.industry .vectors ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+
+
+}
+.industry .vectors ul li img {
+    max-height: 90px;
+    width: auto;
+    padding: 30px;
+    margin-top: 130px;
+}
