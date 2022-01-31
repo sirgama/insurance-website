@@ -6,6 +6,7 @@
 ## Table of Contents
 
 + [Description](#description)
++ [Installation](#installation)
 + [Site Link](#sitelink)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
@@ -15,6 +16,7 @@
 <p>This is a responsive website for an Insurance Company built on HTML and CSS with media queries that enable it to be a responsive site.</p>
 
 ## Installation
+<p>For as long as you have access to a functioning browser, this website will work without glitches. Viola!
 
 ### Requirements
 
@@ -28,8 +30,9 @@
 The landing page is being hosted by Github Pages. The link to the page is:
 
 <a href="https://sirgama.github.io/insurance-website/">https://sirgama.github.io/insurance-website/</a>
-## Technology Used
-* HTNL - which was used to build the structure of the pages.
+
+### Technology Used
+* HTML - which was used to build the structure of the pages.
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
