@@ -432,3 +432,168 @@ html {
     border: none;
     color: white;
 }
+
+
+.prices {
+    background: #fafafa;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100vh;
+}
+
+.prices .free {
+    border: 2px solid #acc4d2;
+    border-radius: 15px;
+    height: 500px;
+    width: 250px;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.prices .free h1 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.prices .free #sp {
+    margin-top: 30px;
+    color: #3aa0e2;
+}
+.prices .free #sp span {
+    font-size: 19pt;
+    font-weight: 900;
+    color: #3aa0e2;
+}
+.prices .free ul li {
+    text-decoration: none;
+    text-align: start;
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 9pt;
+}
+.prices .free ul li img {
+    max-height: 20px;
+    width: 20px;
+}
+.prices .free button {
+    background: #20a6f1;
+    color: #ffffff;
+    border: none;
+    height: 5.5vh;
+    width: 12vw;
+    margin-top: 15px;
+    border-radius: 6px;
+
+}
+
+
+/* Standard level starts here */
+
+.prices .standard {
+    border: 2px solid #acc4d2;
+    border-radius: 15px;
+    height: 540px;
+    width: 250px;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin-bottom: 35px;
+    background: #262b42;
+    color: #ffffff;
+}
+.prices .standard h1 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.prices .standard #su {
+    margin-top: 30px;
+    color: #3aa0e2;
+}
+.prices .standard #su span {
+    font-size: 19pt;
+    font-weight: 900;
+    color: #3aa0e2;
+}
+.prices .standard ul li {
+    text-decoration: none;
+    text-align: start;
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 9pt;
+}
+.prices .standard ul li img {
+    max-height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+.prices .standard button {
+    background: #20a6f1;
+    color: #ffffff;
+    border: none;
+    height: 5.5vh;
+    width: 12vw;
+    margin-top: 15px;
+    border-radius: 6px;
+
+}
+
+/* Premium level starts here */
+
+.prices .premium {
+    border: 2px solid #acc4d2;
+    border-radius: 15px;
+    height: 500px;
+    width: 250px;
+    font-size: 10pt;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.prices .premium h1 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.prices .premium #sv {
+    margin-top: 30px;
+    color: #3aa0e2;
+}
+.prices .premium #sv span {
+    font-size: 19pt;
+    font-weight: 900;
+    color: #3aa0e2;
+}
+.prices .premium ul li {
+    text-decoration: none;
+    text-align: start;
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 9pt;
+}
+.prices .premium ul li img {
+    max-height: 20px;
+    width: 20px;
+}
+.prices .premium button {
+    background: #20a6f1;
+    color: #ffffff;
+    border: none;
+    height: 5.5vh;
+    width: 12vw;
+    margin-top: 15px;
+    border-radius: 6px;
+
+}
