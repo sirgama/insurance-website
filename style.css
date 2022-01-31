@@ -597,3 +597,27 @@ html {
     border-radius: 6px;
 
 }
+/* World section starts here */
+
+.world {
+    height: 80vh;
+    width: 100%;
+}
+.world .wld {
+    max-height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 150px;
+    float: right;
+}
+.world h1 {
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+.world p {
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
