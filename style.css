@@ -823,4 +823,27 @@ html {
 
 .mwisho {
     background: #fafafa;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 7vh;
+    width: 100%;
+    
+}
+.mwisho .social img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px;
+    margin: 0 20px; */
+
+}
+.mwisho .last {
+    font-size: 13px;
 }
