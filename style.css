@@ -642,11 +642,11 @@ html {
     width: auto;
 }
 .form .bookform {
-    border: 2px solid rgb(12, 12, 12);
+    border: 2px solid white(12, 12, 12);
     height: 460px;
-    width: 400px;
+    width: 490px;
     color: black;
-    background: #fafafa;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -655,7 +655,36 @@ html {
 
 
 }
+.form .bookform h2 {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+.form .bookform input {
+    
+    margin: 10px;
+    margin-left: 30px;
+    height: 5vh;
+    width: 30vw;
+    border: 1px solid rgb(221, 210, 210);
+}
+.form .bookform label {
+    font-size: 12px;
+    font-weight: bold;
+}
 
+.form .bookform button {
+    align-self: center;
+    margin-left: 70px;
+    margin-top: 30px;
+    border: none;
+    background: #22a6f0;
+    color: white;
+    font-weight: bold;
+    width: 25vw;
+    height: 6vh;
+    border-radius: 5px;
+}
 .callus {
     height: 60vh;
     width: 100%;
